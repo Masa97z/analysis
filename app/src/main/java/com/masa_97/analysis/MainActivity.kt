@@ -10,11 +10,21 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         register()
+        forgetPass()
     }
 
+    private fun forgetPass() {
+        var forget = findViewById<TextView>(R.id.forget_your)
+        forget.setOnClickListener {
+            val intent = Intent(this , ForgetpasswordActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+
     private fun register() {
-        var bu = findViewById<TextView>(R.id.create_account)
-        bu.setOnClickListener {
+        var buttonRegister = findViewById<TextView>(R.id.create_account)
+        buttonRegister.setOnClickListener {
             val intent = Intent(this , RegisterActivity::class.java)
             startActivity(intent)
         }
