@@ -17,7 +17,6 @@
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/poppins_semibold"
         android:gravity="top"
-        android:lineHeight="36sp"
         android:text="@string/add_and_tra"
         android:textAppearance="@style/add_and_tra"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,8 +55,8 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="24dp"
-
-        android:background="@drawable/rectangle_6"
+        android:drawablePadding="8dp"
+        android:background="@drawable/text_login_p"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome_bac" />
@@ -70,9 +69,9 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
-
-        android:background="@drawable/rectangle_6"
+        android:background="@drawable/text_login_p"
         android:drawableStart="@drawable/password"
+        android:drawablePadding="8dp"
         android:hint="@string/Password"
         android:inputType="textPassword"
         android:paddingStart="8dp"
@@ -94,7 +93,7 @@
         android:gravity="center_vertical"
         android:lineSpacingExtra="0sp"
         android:text="@string/forget_your"
-        android:textAppearance="@style/forget_your"
+        android:textAppearance="@style/create"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passordLogin" />
@@ -107,7 +106,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="460dp"
         android:layout_marginEnd="24dp"
-        android:background="@drawable/rectangle_7"
+        android:background="@drawable/buttons"
         android:fontFamily="@font/poppins_semibold"
         android:text="@string/login"
         android:textColor="@color/white"
@@ -129,7 +128,7 @@
         android:gravity="center_vertical"
         android:lineSpacingExtra="0sp"
         android:text="@string/creat_new_a"
-        android:textAppearance="@style/forget_your"
+        android:textAppearance="@style/create"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -142,9 +141,10 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
         android:layout_marginTop="60dp"
-        android:background="@drawable/rectangle_8"
+        android:background="@drawable/border_button"
         android:paddingStart="16dp"
         android:drawableStart="@drawable/facebook"
+        android:drawablePadding="8dp"
         android:text="@string/facebook"
         android:textAlignment="center"
         android:textAppearance="@style/create"
@@ -163,7 +163,7 @@
         android:drawableStart="@drawable/google"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="24dp"
-        android:background="@drawable/rectangle_8"
+        android:background="@drawable/border_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/creat_new_a" />
 
