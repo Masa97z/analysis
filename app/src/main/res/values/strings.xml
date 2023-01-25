@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">analysis</string>
+    <string name="add_and_tra">Add and track your medical tests</string>
+    <string name="welcome_bac">welcome back, please login to your account</string>
+    <string name="email">  Email</string>
+    <string name="Password">  Password</string>
+    <string name="forget_your">Forget your password ?</string>
+    <string name="login">Login</string>
+    <string name="creat_new_a">Creat new account</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+
+</resources>
