@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">analysis</string>
+    <string name="app_name">My Test</string>
     <string name="add_and_tra">Add and track your medical tests</string>
     <string name="welcome_bac">welcome back, please login to your account</string>
     <string name="email">   Email</string>
