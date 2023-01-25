@@ -13,7 +13,7 @@
 
         android:layout_alignParentTop="true"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="96dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/poppins_semibold"
         android:gravity="top"
@@ -104,7 +104,7 @@
         android:layout_height="56dp"
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/buttons"
         android:fontFamily="@font/poppins_semibold"
@@ -113,17 +113,18 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/forget_your">
+
     </androidx.appcompat.widget.AppCompatButton>
     <!-- Creat new account -->
     <TextView
-        android:id="@+id/creat_new_a"
+        android:id="@+id/create_account"
         android:layout_width="162dp"
         android:layout_height="24dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="114dp"
-        android:layout_marginTop="556dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="114dp"
         android:gravity="center_vertical"
         android:lineSpacingExtra="0sp"
@@ -131,7 +132,7 @@
         android:textAppearance="@style/create"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_7" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/rectangle_8"
@@ -140,32 +141,32 @@
 
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="48dp"
         android:background="@drawable/border_button"
-        android:paddingStart="16dp"
         android:drawableStart="@drawable/facebook"
         android:drawablePadding="8dp"
+        android:paddingStart="16dp"
         android:text="@string/facebook"
         android:textAlignment="center"
         android:textAppearance="@style/create"
         android:textColor="@color/colortextbutton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/creat_new_a" />
+        app:layout_constraintTop_toBottomOf="@+id/create_account" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/rectangle_9"
         android:layout_width="163dp"
         android:layout_height="56dp"
-        android:text="@string/google"
-        android:textAppearance="@style/create"
-        android:paddingStart="16dp"
-        android:textAlignment="center"
-        android:drawableStart="@drawable/google"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/border_button"
+        android:drawableStart="@drawable/google"
+        android:paddingStart="16dp"
+        android:text="@string/google"
+        android:textAlignment="center"
+        android:textAppearance="@style/create"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/creat_new_a" />
+        app:layout_constraintTop_toBottomOf="@+id/create_account" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

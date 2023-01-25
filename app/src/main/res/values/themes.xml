@@ -7,7 +7,11 @@
     Line height: 36sp
     <!-- styles.xml -->
     <style name="add_and_tra">
-        <item name="lineHeight">36sp</item>
+        <item name="fontFamily"></item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#243239</item>
+    </style>
+    <style name="reg">
         <item name="fontFamily"></item>
         <item name="android:textSize">24sp</item>
         <item name="android:textColor">#243239</item>
