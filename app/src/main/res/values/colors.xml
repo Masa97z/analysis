@@ -7,4 +7,5 @@
     <color name="text_box_color">#E6F0FD</color>
     <color name="button_color">#10AACD</color>
     <color name="prestbutton">#E6F0FD</color>
+    <color name="dark">#243239</color>
 </resources>

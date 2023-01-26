@@ -11,7 +11,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         register()
         forgetPass()
+        toLogIn()
     }
+
+    private fun toLogIn() {
+        var forget = findViewById<TextView>(R.id.tologin)
+        forget.setOnClickListener {
+            val intent = Intent(this , Main_without_itemActivity::class.java)
+            startActivity(intent)
+        }    }
 
     private fun forgetPass() {
         var forget = findViewById<TextView>(R.id.forget_your)

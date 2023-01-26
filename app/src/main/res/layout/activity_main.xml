@@ -10,15 +10,15 @@
         android:id="@+id/add_and_tra"
         android:layout_width="358dp"
         android:layout_height="72dp"
-
+        android:text="@string/add_and_tra"
         android:layout_alignParentTop="true"
         android:layout_marginStart="16dp"
         android:layout_marginTop="96dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/poppins_semibold"
         android:gravity="top"
-        android:text="@string/add_and_tra"
         android:textAppearance="@style/add_and_tra"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,22 +42,24 @@
         app:layout_constraintTop_toBottomOf="@+id/add_and_tra" />
 
     <!-- Rectangle 6 -->
+
     <EditText
-        android:inputType="textEmailAddress"
         android:id="@+id/rectangle_6"
         android:layout_width="342dp"
         android:layout_height="56dp"
-        android:hint="@string/email"
-        android:drawableStart="@drawable/email"
-        android:paddingEnd="8dp"
-        android:paddingStart="8dp"
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="24dp"
-        android:drawablePadding="8dp"
         android:background="@drawable/text_login_p"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="8dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome_bac" />
 
@@ -67,7 +69,7 @@
         android:layout_height="56dp"
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/text_login_p"
         android:drawableStart="@drawable/password"
@@ -76,7 +78,7 @@
         android:inputType="textPassword"
         android:paddingStart="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rectangle_6" />
 
@@ -95,15 +97,18 @@
         android:text="@string/forget_your"
         android:textAppearance="@style/create"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passordLogin" />
 
+    <!-- Creat new account -->
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/rectangle_7"
+        android:id="@+id/tologin"
         android:layout_width="342dp"
         android:layout_height="56dp"
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
+        android:paddingTop="4dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/buttons"
@@ -112,11 +117,12 @@
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/forget_your">
 
     </androidx.appcompat.widget.AppCompatButton>
-    <!-- Creat new account -->
+
     <TextView
         android:id="@+id/create_account"
         android:layout_width="162dp"
@@ -132,7 +138,7 @@
         android:textAppearance="@style/create"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_7" />
+        app:layout_constraintTop_toBottomOf="@+id/tologin" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/rectangle_8"

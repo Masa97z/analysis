@@ -103,6 +103,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="24dp"
+        android:paddingTop="4dp"
         android:background="@drawable/buttons"
         android:fontFamily="@font/poppins_semibold"
         android:text="@string/sign_up"
